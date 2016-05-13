@@ -7,8 +7,9 @@ public class Builder
 	[MenuItem ("Builds/ALL")]
 	public static void All()
 	{
-			AllFull();
-			AllFree();
+			//AllFull();
+			//AllFree();
+			Linux("Full");
 	}
 
 	[MenuItem ("Builds/Full/ALL")]
